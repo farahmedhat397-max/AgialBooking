@@ -188,8 +188,8 @@ Signature: ${data.signature}
             <p>2- لا يتم وصف الأدوية خلال الاستشارة الطبية عن بعد وفي حالة رغبة المريض في استلام وصفة طبية أو تقرير طبي يتم استلامه من المستشفى.</p>
             <hr/>
             <p style={{direction:'ltr', textAlign:'left'}}><b>Consent to Telemedicine Consultation</b></p>
-            <p style={{direction:'ltr', textAlign:'left'}}>I, the undersigned, hereby consent to receive a medical consultation from qualified physicians specialized in their field using one of the electronic communication methods such as (phone, video or applications).</p>
-            <p style={{direction:'ltr', textAlign:'left'}}>1- Telemedicine does not replace in-person examination. 2- No prescriptions during telemedicine. 3- Payment in advance and non-refundable. 4- Duration 20 minutes. 5- I agree to record consultation.</p>
+            <p style={{direction:'ltr', textAlign:'left'}}>I, the undersigned, hereby consent to receive a medical consultation from qualified physicians specialized in their field using one of the electronic communication methods such as (video or call via applications).</p>
+            <p style={{direction:'ltr', textAlign:'left'}}>I acknowledge that i am fully aware of the following:     1- Remote medical consultation does not replace in-person medical examination in cases that require it as determined by the physician.       2- Medications will not be prescribed during remote consultation, and if the patient wishes to obtain a prescription or medical report, it must be collected from the hospital.    </p>
           </div>
         ) : (
           <div className="consent-box" style={{fontSize:'13px', maxHeight:'340px', overflowY:'auto', border:'1px solid #ddd', padding:'14px', lineHeight:'1.9', background:'#fff', direction:'ltr', textAlign:'left'}}>
