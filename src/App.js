@@ -186,9 +186,6 @@ Signature: ${data.signature}
             <p><b>وأقر بمعرفتي الكاملة بالتالي:</b></p>
             <p>1- الاستشارة الطبية عن بعد لا تغني عن الكشف الطبي المباشر في الحالات التي تستدعي ذلك وفقا لما يقرره الطبيب.</p>
             <p>2- لا يتم وصف الأدوية خلال الاستشارة الطبية عن بعد وفي حالة رغبة المريض في استلام وصفة طبية أو تقرير طبي يتم استلامه من المستشفى.</p>
-            <p>3- يتم الإلتزام التام بسداد قيمة الاستشارة مسبقاً قبل موعد الاستشارة ولا يحق للمريض استرجاع المبلغ بعد سداد قيمته.</p>
-            <p>4- تكون مدة الاستشارة ٢٠ دقيقة وفي حالة التأخير عن الموعد المحدد دون أي عذر يعتبر الحجز ملغياً.</p>
-            <p>5- أوافق على تسجيل الإستشارة الطبية لأغراض الجودة والمراجعة الطبية.</p>
             <hr/>
             <p style={{direction:'ltr', textAlign:'left'}}><b>Consent to Telemedicine Consultation</b></p>
             <p style={{direction:'ltr', textAlign:'left'}}>I, the undersigned, hereby consent to receive a medical consultation from qualified physicians specialized in their field using one of the electronic communication methods such as (phone, video or applications).</p>
@@ -197,13 +194,10 @@ Signature: ${data.signature}
         ) : (
           <div className="consent-box" style={{fontSize:'13px', maxHeight:'340px', overflowY:'auto', border:'1px solid #ddd', padding:'14px', lineHeight:'1.9', background:'#fff', direction:'ltr', textAlign:'left'}}>
             <h3 style={{textAlign:'center', marginTop:0}}>Consent to Telemedicine Consultation</h3>
-            <p>I, the undersigned, hereby consent to receive a medical consultation from qualified physicians specialized in their field using one of the electronic communication methods such as (phone, video or applications).</p>
-            <p><b>I acknowledge that:</b></p>
-            <p>1- Telemedicine consultation does not replace in-person medical examination in cases that require it as decided by the doctor.</p>
-            <p>2- No medications are prescribed during telemedicine consultation, and if the patient wishes to receive a prescription or medical report, it will be received from the hospital.</p>
-            <p>3- Full commitment to pay the consultation fee in advance before the consultation appointment, and the patient is not entitled to refund the amount after payment.</p>
-            <p>4- The consultation duration is 20 minutes, and in case of delay from the scheduled appointment without any excuse, the booking is considered cancelled.</p>
-            <p>5- I agree to record the medical consultation for quality and medical review purposes.</p>
+            <p>I, the undersigned, hereby consent to receive a medical consultation from qualified physicians specialized in their field using one of the electronic communication methods such as (video or call via applications).</p>
+            <p><b>I acknowledge that i am fully aware of the following:</b></p>
+            <p>1- Remote medical consultation does not replace in-person medical examination in cases that require it as determined by the physician.</p>
+            <p>2- Medications will not be prescribed during remote consultation, and if the patient wishes to obtain a prescription or medical report, it must be collected from the hospital.</p>
           </div>
         )}
 
